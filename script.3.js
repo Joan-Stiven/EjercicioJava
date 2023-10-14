@@ -7,10 +7,10 @@ if (edad <18){
     alert("usted es mayor de edad")
 }
 
-/*Dadas las tres calificaciones que el estudiante obtuvo en curso:
+Dadas las tres calificaciones que el estudiante obtuvo en curso:
 a) determinar su promedio
 b) indicar si el estudiante aprobo el curso
-las notas deben ser de 1 a 10 y aprueba con un promedio mayor de 6.*/
+las notas deben ser de 1 a 10 y aprueba con un promedio mayor de 6.
 
 let cal1 = prompt("ingrese la primera calificacion");
 let cal2 = prompt("ingrese la segunda calificacion");
@@ -202,16 +202,3 @@ let opcion = prompt("1. suma 2. resta 3. division 4. multiplcacion");
 let nume1 = prompt("digite el numero 1");
 let nume2 = prompt("digite el numero 2");
 
-if (opcion==1){
-    suma=parseInt(nume1)+parseInt(nume2);
-    alert(suma);
-} else if(opcion==2){
-    resta=parseInt(nume1)-parseInt(nume2);
-    alert(resta);
-} else if(opcion==3){
-    division=parseInt(nume1)/parseInt(nume2);
-    alert(division);
-} else {
-    multiplicacion=parseInt(nume1)*parseInt(nume2);
-    alert(multiplicacion);
-}
